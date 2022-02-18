@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Cherri Tips",
+    description: "Educate your site and app users about your product with inline info-banners",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
@@ -45,6 +45,12 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: 'favicon.svg',
+      },
+    },
     "gatsby-plugin-image",
     {
       resolve: "gatsby-source-contentful",

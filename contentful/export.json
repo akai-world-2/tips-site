@@ -500,7 +500,7 @@
             },
             "fields": {
                 "name": {
-                    "en-US": "John Doe"
+                    "en-US": "Cherri Tips"
                 },
                 "title": {
                     "en-US": "Web Developer"
@@ -509,7 +509,7 @@
                     "en-US": "ACME"
                 },
                 "shortBio": {
-                    "en-US": "Research and recommendations for modern stack websites."
+                    "en-US": "Educate your users about your product with small info-banners"
                 },
                 "email": {
                     "en-US": "john@doe.com"
